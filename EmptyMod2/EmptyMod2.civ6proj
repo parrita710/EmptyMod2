@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>EmptyMod2</Name>
+    <Guid>23879c66-7cbb-4320-a891-ad24026f1b6b</Guid>
+    <ProjectGuid>04594c15-f22b-435c-9fef-92b1d72ffe4f</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>Amatheria</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <AssemblyName>EmptyMod2</AssemblyName>
+    <RootNamespace>EmptyMod2</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Database"><File>NewRes.xml</File></UpdateDatabase><UpdateText id="Text"><File>NewRes_Text.xml</File></UpdateText><UpdateArt id="Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\Clutter.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Resources.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Granite_Decal01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Granite_Decal02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Granite_Rock01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Granite_Rock02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Granite_Rock03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Granite_Rock04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Granite_Rock05.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lead_Decal01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lead_Decal02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lead_Rock01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lead_Rock02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lead_Rock03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lead_Rock04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Lead_Rock05.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ruby_Decal01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ruby_Decal02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ruby_Rock01.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ruby_Rock02.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ruby_Rock03.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Assets\Ruby_Rock04.ast">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal04.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal04.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal05.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Decal05.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock04.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock04.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock05.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Copper_Rock05.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal04.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Decal04.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock04.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Jade_Rock04.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal04.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal04.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal05.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Decal05.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock01.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock01.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock02.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock02.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock03.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock03.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock04.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock04.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock05.fgx">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Geometries\RES_Marble_Rock05.geo">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Granite.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Granite_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Lead.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Lead_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Ruby.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Materials\Ruby_Decal.mtl">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewRes.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="NewRes_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Granite_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Granite_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Granite_Decal_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Granite_Decal_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Marble_Decal_H.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Marble_Decal_H.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Marble_G.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Marble_G.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Marble_N.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\RES_Marble_N.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_Decal_B.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_Decal_FOW.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_Decal_FOW.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_Decal_B.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_Decal_H.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_Decal_H.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_G.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_G.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_M.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_M.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_N.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_N.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_O.dds">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Textures\Ruby_O.tex">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Clutter.xlp">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets" />
+    <Folder Include="Materials" />
+    <Folder Include="Artdefs" />
+    <Folder Include="Geometries" />
+    <Folder Include="Textures" />
+    <Folder Include="XLPs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

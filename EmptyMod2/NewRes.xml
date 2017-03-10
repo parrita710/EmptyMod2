@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Anton Strenger (Firaxis Games) -->
+<GameInfo>
+	<Types>
+		<!--Define el recurso que introduces es del tipo recurso-->
+		<!--Recurso: Ruby-->
+		<Row Type="RESOURCE_RUBY" Kind="KIND_RESOURCE"/>
+		<!--Recurso: Granite-->
+		<Row Type="RESOURCE_GRANITE" Kind="KIND_RESOURCE"/>
+		<!--Recurso: Lead-->
+		<Row Type="RESOURCE_LEAD" Kind="KIND_RESOURCE"/>
+		<!--Recurso: Clay-->
+		<Row Type="RESOURCE_CLAY" Kind="KIND_RESOURCE"/>
+	</Types>
+	<TypeTags>
+		<!--Hay que colocar un row por cada beneficio que da el recurso-->
+		<!--Recurso: Ruby-->
+		<Row Type="RESOURCE_RUBY" Tag="CLASS_GOLD"/>
+		<Row Type="RESOURCE_RUBY" Tag="CLASS_PRODUCTION"/>
+		<!--Recurso: Granite-->
+		<Row Type="RESOURCE_GRANITE" Tag="CLASS_PRODUCTION"/>
+		<!--Recurso: Lead-->
+		<Row Type="RESOURCE_LEAD" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_LEAD" Tag="CLASS_SCIENCE"/>
+		<!--Recurso: Clay-->
+		<Row Type="RESOURCE_CLAY" Tag="CLASS_PRODUCTION"/>
+		<Row Type="RESOURCE_CLAY" Tag="CLASS_CULTURE"/>
+	</TypeTags>
+	<Resources>
+		<!--Tipos de recursos: Bonus, Luxury y Strategy-->
+		<!--Si es bonus no tiene que tener happiness no funciona y si es luxury si-->
+		<!--CAMBIAR LA FRECUENCIA ANTES DE IR A PRODUCCIÓN-->
+		<!--Recurso: Ruby-->
+		<Row ResourceType="RESOURCE_RUBY" Name="LOC_RESOURCE_RUBY_NAME" ResourceClassType="RESOURCECLASS_LUXURY" Happiness="4" Frequency="50"/>
+		<!--Recurso: Granite-->
+		<Row ResourceType="RESOURCE_GRANITE" Name="LOC_RESOURCE_GRANITE_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="50"/>
+		<!--Recurso: Lead-->
+		<Row ResourceType="RESOURCE_LEAD" Name="LOC_RESOURCE_LEAD_NAME" ResourceClassType="RESOURCECLASS_BONUS" Frequency="50"/>
+	</Resources>
+	<Resource_ValidTerrains>
+		<!--Recurso: Ruby-->
+		<Row ResourceType="RESOURCE_RUBY" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_RUBY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_RUBY" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_RUBY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_RUBY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_RUBY" TerrainType="TERRAIN_PLAINS"/>
+		<!--Recurso: Granite-->
+		<Row ResourceType="RESOURCE_GRANITE" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ResourceType="RESOURCE_GRANITE" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_GRANITE" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_GRANITE" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<!--Recurso: Lead-->
+		<Row ResourceType="RESOURCE_LEAD" TerrainType="TERRAIN_DESERT"/>
+		<Row ResourceType="RESOURCE_LEAD" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ResourceType="RESOURCE_LEAD" TerrainType="TERRAIN_GRASS"/>
+		<Row ResourceType="RESOURCE_LEAD" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ResourceType="RESOURCE_LEAD" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ResourceType="RESOURCE_LEAD" TerrainType="TERRAIN_PLAINS"/>
+	</Resource_ValidTerrains>
+	<Resource_Harvests>
+	</Resource_Harvests>
+	<Resource_YieldChanges>
+		<!--Tiene que haber un row por cada row que haya en typetags, se define el tipo de beneficio que da y el cambio que produce-->
+		<!--Recurso: Ruby-->
+		<Row ResourceType="RESOURCE_RUBY" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row ResourceType="RESOURCE_RUBY" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<!--Recurso: Granite-->
+		<Row ResourceType="RESOURCE_RUBY" YieldType="YIELD_PRODUCTION" YieldChange="4"/>
+		<!--Recurso: Lead-->
+		<Row ResourceType="RESOURCE_RUBY" YieldType="YIELD_PRODUCTION" YieldChange="3"/>
+		<Row ResourceType="RESOURCE_RUBY" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+	</Resource_YieldChanges>
+</GameInfo>

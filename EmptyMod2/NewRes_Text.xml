@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameData>
+ <BaseGameText>
+	 <!--Recurso: Ruby-->
+	<Replace Tag="LOC_RESOURCE_RUBY_NAME">
+		<Text>Ruby</Text>
+		<Gender>Masculine:no_article</Gender>
+	</Replace>
+	<Replace Tag="LOC_RESOURCE_RUBY_DESCRIPTION">
+		<Text>Some really expensive shit.</Text>
+	</Replace>
+	<!--Recurso: Granite-->
+	 <Replace Tag="LOC_RESOURCE_GRANITE_NAME">
+		 <Text>Granite</Text>
+		 <Gender>Masculine:no_article</Gender>
+	 </Replace>
+	 <Replace Tag="LOC_RESOURCE_GRANITE_DESCRIPTION">
+		 <Text>Some really hard shit.</Text>
+	 </Replace>
+	 <!--Recurso: Lead-->
+	 <Replace Tag="LOC_RESOURCE_LEAD_NAME">
+		 <Text>Lead</Text>
+		 <Gender>Masculine:no_article</Gender>
+	 </Replace>
+	 <Replace Tag="LOC_RESOURCE_LEAD_DESCRIPTION">
+		 <Text>Some bad tasting shit.</Text>
+	 </Replace>
+	 <!--Recurso: Clay-->
+	 <Replace Tag="LOC_RESOURCE_CLAY_NAME">
+		 <Text>Clay</Text>
+		 <Gender>Masculine:no_article</Gender>
+	 </Replace>
+	 <Replace Tag="LOC_RESOURCE_CLAY_DESCRIPTION">
+		 <Text>It's taste like shit also.</Text>
+	 </Replace>
+ </BaseGameText>
+</GameData>

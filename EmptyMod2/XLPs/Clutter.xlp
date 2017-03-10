@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>867</revision>
+	</m_Version>
+	<m_ClassName text="Landmark"/>
+	<m_PackageName text="environment/clutter"/>
+	<m_Entries>
+		<!--Recurso: Ruby-->
+		<Element>
+			<m_EntryID text="Ruby_Decal01"/>
+			<m_ObjectName text="Ruby_Decal01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ruby_Decal02"/>
+			<m_ObjectName text="Ruby_Decal02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ruby_Rock01"/>
+			<m_ObjectName text="Ruby_Rock01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ruby_Rock02"/>
+			<m_ObjectName text="Ruby_Rock02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ruby_Rock03"/>
+			<m_ObjectName text="Ruby_Rock03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Ruby_Rock04"/>
+			<m_ObjectName text="Ruby_Rock04"/>
+		</Element>
+		<!--Recurso: Granite-->
+		<Element>
+			<m_EntryID text="Granite_Decal01"/>
+			<m_ObjectName text="Granite_Decal01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Granite_Decal02"/>
+			<m_ObjectName text="Granite_Decal02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Granite_Rock01"/>
+			<m_ObjectName text="Granite_Rock01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Granite_Rock02"/>
+			<m_ObjectName text="Granite_Rock02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Granite_Rock03"/>
+			<m_ObjectName text="Granite_Rock03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Granite_Rock04"/>
+			<m_ObjectName text="Granite_Rock04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Granite_Rock05"/>
+			<m_ObjectName text="Granite_Rock05"/>
+		</Element>
+		<!--Recurso: Lead-->
+		<Element>
+			<m_EntryID text="Lead_Decal01"/>
+			<m_ObjectName text="Lead_Decal01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lead_Decal02"/>
+			<m_ObjectName text="Lead_Decal02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lead_Rock01"/>
+			<m_ObjectName text="Lead_Rock01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lead_Rock02"/>
+			<m_ObjectName text="Lead_Rock02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lead_Rock03"/>
+			<m_ObjectName text="Lead_Rock03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lead_Rock04"/>
+			<m_ObjectName text="Lead_Rock04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lead_Rock05"/>
+			<m_ObjectName text="Lead_Rock05"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::ArtDefSet>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>244</build>
+		<revision>382</revision>
+	</m_Version>
+	<m_TemplateName text="Resources"/>
+	<m_RootCollections>
+		<Element>
+			<m_CollectionName text="Resource"/>
+			<!--Los recursos se ponen debajo del m_CollectionName-->
+			<!--Recurso: Ruby-->
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Clutter"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="CLUTTER_RUBY"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Clutter001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Landmark"/>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio"/>
+					</Element>
+					<Element>
+						<m_CollectionName text="ClutterVariants"/>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="RESOURCE_RUBY"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<!--Recurso: Granito-->
+			<Element>
+				<m_Fields>
+					<m_Values/>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Clutter"/>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects::StringValue">
+										<m_Value text="CLUTTER_GRANITE"/>
+										<m_ParamName text="XrefName"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Clutter001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Landmark"/>
+					</Element>
+					<Element>
+						<m_CollectionName text="Audio"/>
+					</Element>
+					<Element>
+						<m_CollectionName text="ClutterVariants"/>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="RESOURCE_GRANITE"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<!--Recurso: Lead-->
+		</Element>
+	</m_RootCollections>
+</AssetObjects::ArtDefSet>
+
